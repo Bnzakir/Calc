@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping pattern="Rfetch" type="CLASS" />
+      <mapping pattern="rfetch" type="CLASS" />
+      <mapping pattern="json" type="JSON" />
+    </extensionMap>
+  </component>
+</application>
