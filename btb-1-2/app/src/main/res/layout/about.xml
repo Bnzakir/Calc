@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Ünvan: Nobel pr-ti, 13A, Bakı,  AZ1025
+E-mail: info@btb.az
+Telefon: (994 12) 499 79 95 / 96
+Faks: (994 12) 499 79 98"
+        />
+
+</LinearLayout>

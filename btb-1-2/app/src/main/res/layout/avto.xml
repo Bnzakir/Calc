@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:stretchColumns="1">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+        android:background="#eaeaea">
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Meyarlar"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Şərtlər"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/s"
+                />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:text= "@string/er"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Şərtlərə cavab verən şəxs "
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Yaş həddi"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="20 – 60 (kreditmüddətinin sonuna)"
+                android:textColor="@android:color/black"
+                 />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Cari iş stajı"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Min. 3 ay"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kreditin məbləği "
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Maks. 80 000 AZN / 100 000 USD "
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Müddəti"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Maks. 5 il"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Faiz dərəcəsi"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="illik 14-16%"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="Komissiya haqqi"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="1% + 5 AZN "
+                 />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+            <TextView
+                android:text="Ödəniş forması"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Annuitet"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+            />
+
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Tələb olunan sənədlər"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+
+                android:layout_weight="1"
+                android:text="1. Şəxsiyyəti təsdiq edən sənəd \n2. Gəliri təsdiq edən sənəd"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="                             İlkin ödəniş"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+ <TableLayout
+     android:id="@+id/table"
+     >
+        <TableRow>
+            <TextView
+                android:text= "İstehsal \nmüddəti         "
+                android:layout_column="1"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+
+                android:text= "İstehsal müddəti \n1 ilə qədər olan \nnəqliyyat vasitələri   "
+                android:textColor="@android:color/black"
+                android:layout_column="2"
+
+                ></TextView>
+
+
+            <TextView
+
+                android:text= "    İstehsal müddəti \n    1 ildən artıq olan \n   nəqliyyat vasitələri"
+                android:layout_column="3"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+     <View
+
+         android:layout_width="fill_parent"
+         android:layout_height="1dp"
+         android:background="@android:color/darker_gray"/>
+ </TableLayout>
+        <TableLayout
+            android:id="@+id/stol1">
+     <TableRow>
+
+            <TextView
+              android:layout_column="1"
+                android:text="Avtomobilin \ndəyəri"
+                android:textColor="@android:color/black"
+                 />
+
+            <TextView
+                android:layout_column="2"
+                android:text="30 000 AZN-ə \nqədər"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_column="3"
+                android:textColor="@android:color/black"
+                android:text="30 001 AZN-dən \nartıq"
+
+                />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_column="4"
+                android:text="Dəyərindən asılı olmayaraq"
+                />
+
+        </TableRow>
+            <View
+
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+          <TextView
+              android:textColor="@android:color/black"
+              android:text="Minimal ilkin \nödəniş"
+              android:layout_column="1"
+
+              />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:text="50%"
+                android:layout_column="2"
+                />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:text="40"
+                android:layout_column="3"
+                />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:text="80%"
+                android:layout_column="4"
+                />
+
+        </TableRow>
+        </TableLayout>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Qeydlər:  Yekun qərar kredit mütəxəssisi tərəfindən verilir. \nKreditin verilməsi zamanı əlavə sənədlər tələb edilə bilər."
+            ></TextView>
+
+        <TextView
+            android:text="
+Faktiki illik faiz dərəcəsi:"
+            style="bold"
+            android:textColor="@android:color/black"/>
+        <TableRow
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Komissiya (avtomobildən asılı olaraq)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_span="4"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="       Məbləğ    "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text=" 36 ay  "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text=" 60 ay  "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="               1% + 5 AZN"
+                android:textColor="@android:color/black"
+                android:layout_span="4"
+                android:textAlignment="center"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="     5000 AZN     "
+                android:textColor="@android:color/black"
+               />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 14.78%  " />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 16.51%  "
+                />
+
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:text= " "
+                android:textColor="@android:color/black"
+                android:layout_span="4" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="     80000 AZN     "
+                android:textColor="@android:color/black"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 14.71%  " />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 16.46%  "
+               />
+
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:text="Qeyd: Sığorta komissiyaları girov predmetindən asılı olaraq hesablandığından, qeyd olunmuş FİFD-nə müvafiq qaydada sığorta komissiyası əlavə olunacaqdır."
+            android:textColor="@android:color/black"/>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">btb</string>
+    <string name="meyarlar">Meyarlar                                                      </string>
+    <string name="er">Ərizəçi</string>
+    <string name="action_settings">Settings</string>
+<string name="as" >Nominal faiz dərəcəsi </string>
+<string name="san">İPOTEKA KREDİTİNİN ALINMASI ÜÇÜN TƏQDİM OLUNMALI ƏSAS SƏNƏDLƏR </string>
+<string name="perviyblokHead">İPOTEKA KREDİTİNİN ALINMASI ÜÇÜN TƏLƏB OLUNAN SƏNƏDLƏR</string>
+ <string name="perviblok">1. Borcalanın (birgə borcalanın) şəxsiyyətini təsdiq edən sənəd və sənədin surəti.
+\n2. Nigahın bağlanması (və ya boşanma) barədə şəhadətnamə (sənədin surəti).
+\n3. Borcalanla (birgə borcalanla) birgə yaşayan yetkinlik yaşına çatmış \nailə üzvlərinin şəxsiyyətini təsdiq edən sənədlər (sənədlərin surəti)
+\n4. Borcalanın (birgə borcalanın) yetkinlik yaşına çatmamış ailə üzvlərinin \nşəxsiyyət vəsiqələri və ya doğum haqqında şəhadətnamələri (sənədlərin surəti)
+\n5. Borcalanın (birgə borcalanın) əmək müqaviləsi və ya onun iş yerinin kadrlar
+\n6. Borcalanın (birgə borcalanın) gəlirlərini təsdiq edən sənədlər \n(əsas və əgər varsa, əlavə iş yerindən arayış və s.).
+\n7. İpoteka predmetinin qiymətləndirmə aktı.</string>
+
+<string name="vtoroiblokHead">İPOTEKANIN RƏSMİLƏŞDİRİLMƏSİ ÜÇÜN TƏLƏB OLUNAN SƏNƏDLƏR</string>
+  <string name="vtoroiblok">
+1. İpoteka qoyulan yaşayış sahəsi üzrə mülkiyyət hüququnu təsdiq edən sənəd
+      \n(dövlət reyestrindən çıxarış) və texniki pasport (tələb olunduqda).
+\n2. İpoteka predmetinin digər öhdəliklər üzrə yüklü edilməməsini və məhdudiyyət olmadığını təsdiq edən sənəd.
+\n3. İpoteka qoyulan yaşayış sahəsi üzrə qeydiyyatda olanlar haqqında arayış.
+\n4. İpoteka predmetinin ipotekaya qoyulmasına və məhkəmədənkənar qaydada satılmasına dair ərin/arvadın,
+      \nipoteka predmetində qeydiyyatda olan digər yetkinlik yaşına çatmış
+      \n ailə üzvlərinin notariat orqanlarına təqdim olunan razılığının surəti.
+\n5. İpoteka predmetinin mülkiyyətçisi yetkinlik yaşına çatmamış şəxs olduqda,
+      \nonun maraqları çərşivəsində səlahiyyətli qəyyumluq və himayəçilik orqanlarının razılığının surəti.
+
+  </string>
+  <string name="tretiyblockHead">İPOTEKANIN RƏSMİLƏŞDİRİLMƏSİNDƏN SONRA TƏQDİM OLUNMALI SƏNƏDLƏR</string>
+  <string name="tretiyblock">1. İpoteka müqaviləsinin (Qarışıq müqavilə) və ipoteka kağızının əsli və \nonların dövlət qeydiyyatından keçməsini təsdiqləyən sənədlər.
+\n2. Borcalanın həyatın ölüm halından və əmək qabiliyyətinin itirilməsinin və ipoteka predmetinin \nsığortalanmasını və sığorta ödənişlərinin ödənildiyini təsdiqləyən sənədlər.
+\n3. Alınmış yaşayış sahəsinin alqı-satqı müqaviləsinin surəti.
+\n4. Yaşayış sahəsinin satıcısının (fiziki şəxslər üçün) şəxsiyyətini təsdiq edən sənədin surəti.</string>
+    <string name="chetblockHead">BORCALAN FƏRDİ SAHİBKAR OLDUQDA ƏLAVƏ OLARAQ TƏQDİM OLUNMALI SƏNƏDLƏR</string>
+    <string name="chetvblock">1. Sahibkarın vergi orqanlarında qeydiyyatdan keçməsi haqqında şəhadətnamə (surəti).
+           \n2. Vergi orqanları tərəfindən qəbul olunmuş gəlir vergisi və ya sadələşdirilmiş vergi bəyannaməsi.</string>
+    <string name="patiyblokHead">BORCALAN GÜZƏŞTLİ KATEQORİYAYA AİD OLDUQDA ƏLAVƏ OLARAQ TƏQDİM OLUNMALI SƏNƏDLƏR</string>
+   <string name="patiyblok">1. Borcalanın güzəştli kateqoriyaya aid olmasını təsdiq edən sənəd.</string>
+
+    </resources>

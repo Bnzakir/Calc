@@ -1,0 +1,151 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background= "#eaeaea"
+    android:baselineAligned="true"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Kreditin məbləği"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faiz dərəcəsi (%)"
+        android:id="@+id/textView3"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Müddət (ay)"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/et3"
+        android:inputType="number"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:text="Əvvəlcədən ödəniş"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et4"
+        android:inputType="number|numberDecimal" />
+      <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+      ></View>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Məbləğin sayılması"
+        android:id="@+id/btn"
+        android:layout_gravity="center_horizontal" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+
+        ></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Aylıq ödəniş"
+        android:id="@+id/textView5"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:id="@+id/tv6"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:background="@android:color/darker_gray"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Artiğ ödənilən məbləğ"
+           android:textSize="20sp"
+           android:textColor="@android:color/black"
+           android:layout_gravity="center"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:textColor="@android:color/black"
+           android:text=""
+           android:id="@+id/pr"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:background="@android:color/darker_gray"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center"
+                android:id="@+id/qrr"
+                android:visibility="invisible"
+                android:text="qrafik"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myone.btb.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Bank BTB Kredit Kalkulyatoru"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name="com.myone.btb.btbkreditcalc.Calc"
+            android:label="Kredit Kalkulyatoru" >
+        </activity>
+
+
+        <activity
+            android:name="com.myone.btb.btbkreditcalc.MainActivity"
+            android:label="Bank BTB Kredit Kalkulyatoru"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+          <activity android:name="com.myone.btb.btbkreditcalc.Melumat">
+            <intent-filter>
+
+                <action android:name="com.myone.btb.btbkreditcalc.Melumat" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="com.myone.btb.btbkreditcalc.Qrafik">
+            <intent-filter>
+
+                <action android:name="com.myone.btb.btbkreditcalc.Qrafik" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+         <activity
+
+             android:name="com.myone.btb.btbkreditcalc.About"
+             android:label="BTB">
+             <intent-filter>
+             <action android:name="com.myone.btb.app.About" />
+             <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+         </activity>
+
+        <activity android:name="com.myone.btb.btbkreditcalc.Mikrokreditler" android:label="Mikrokreditler">
+
+        </activity>
+       <activity android:name="com.myone.btb.btbkreditcalc.Kart" android:label=" 404 və 606 Kredit kartları"></activity>
+      <activity android:name="com.myone.btb.btbkreditcalc.Mtm" android:label="Müsbət tarixçəli müştərilərə kredit"></activity>
+      <activity android:name="com.myone.btb.btbkreditcalc.Ipoteka" android:label="AİF hesabına ipoteka krediti"></activity>
+      <activity
+          android:label="Avtomobil krediti"
+          android:name="com.myone.btb.btbkreditcalc.Auto"></activity>
+    <activity android:name="com.myone.btb.btbkreditcalc.DovletKredit" android:label="Dövlət müəssisələrinin əməkdaşları üçün kredit"></activity>
+     <activity android:name="com.myone.btb.btbkreditcalc.Ozal" android:label="Özəl müəssisələrin əməkdaşları üçün kredit"></activity>
+     <activity android:name="com.myone.btb.btbkreditcalc.Taq" android:label="Təqaüdçülər üçün kredit" ></activity>
+     <activity android:name="com.myone.btb.btbkreditcalc.Metro" android:label="Metropoliten əməkdaşları üçün kredit"></activity>
+     <activity android:name="com.myone.btb.btbkreditcalc.Tibb" android:label="Tibb və təhsil işçiləri üçün kredit"></activity>
+    </application>
+    
+</manifest>

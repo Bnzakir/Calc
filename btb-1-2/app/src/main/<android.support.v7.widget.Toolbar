@@ -1,0 +1,29 @@
+ <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1e7b1e"
+        android:elevation="4dp"
+       />
+
+
+
+
+
+
+
+
+
+
+
+Each player antes 1.
+Each player is dealt one of the three cards, and the third is put aside unseen.
+Player one can check or bet 1.
+	If player one checks then player two can check or bet 1.
+     If player two checks there is a showdown for the pot of 2.
+	 If player two bets then player one can fold or call.
+	  If player one folds then player two takes the pot of 3.
+	  If player one calls there is a showdown for the pot of 4.
+	If player one bets then player two can fold or call.
+	  If player two folds then player one takes the pot of 3.
+	  If player two calls there is a showdown for the pot of 4.
