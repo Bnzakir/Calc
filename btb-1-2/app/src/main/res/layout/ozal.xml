@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:stretchColumns="1">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="#eaeaea">
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Meyarlar                                                                                  "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Şərtlər"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+
+                />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:text= "@string/er"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Sabit maliyyə durumu olan özəl müəssisələrin əməkdaşları  \nQeyd: Ərizəçi müsbət kredit tarixçəli olduqda, ona Müsbət tarixçəli müştərilər üçün nağd kredit verilir.  "
+                android:textColor="@android:color/black"
+
+                />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Yaş həddi"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="20 – 65 (kreditmüddətinin sonuna)"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Cari iş stajı"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Min. 3 ay "
+                android:textColor="@android:color/black"
+
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kreditin məbləği                                                                                                 "
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Min. 300 AZN / USD, Maks. 5000 AZN / 6300 USD "
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Müddəti"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="3 - 36 ay"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="İllik faiz dərəcəsi"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="32%"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Faktiki illik faiz dərəcəsi                    "
+                android:textColor="@android:color/black"
+                android:layout_span="4" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="   Kreditin məbləği   "
+                android:textColor="@android:color/black"
+
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text=" 3 ay  "
+                android:textColor="@android:color/black"
+
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text=" 36 ay  "
+                android:textColor="@android:color/black"
+
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:text= "                  "
+                android:textColor="@android:color/black"
+                android:layout_span="4"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="   300 AZN     "
+                android:textColor="@android:color/black"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 87.70%"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 45.28%  "
+               />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:layout_span="4" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="8000 AZN "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 58.14%"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:text=" 38.73%"
+             />
+
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="Komissiya haqqi   "/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="\na) kreditin müddəti 3 - 12 ay olduqda: 4% (min. 20 AZN /  25 USD) + 5 AZN / 7 USD;\nb) kreditin müddəti 13 - 24 ay olduqda: 6% (min. 30 AZN / 40 USD) + 5 AZN / 7 USD;\nс) kreditin müddəti 25 - 36 ay olduqda: 8% (min. 40 AZN / 50 USD) + 5 AZN / 7 USD;"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+            <TextView
+                android:text="Ödəniş forması"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="Annuitet"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+            />
+
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Tələb olunan sənədlər"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+
+                android:layout_weight="1"
+                android:text="1. Şəxsiyyəti təsdiq edən sənəd \n2. İş yerindən arayış. "
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:text="Təminat"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:text="Kreditin məbləği 2000 AZN / 2500 USD-dən yuxarı olduqda, zamin tələb edilir. "
+                android:textColor="@android:color/black"
+
+                />
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow>
+            <TextView
+                android:text="Zamindən tələb edilən sənədlər"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:text="Şəxsiyyəti təsdiq edən sənəd"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                />
+
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dip"
+            android:layout_weight="1">
+        </View>
+
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Qeydlər: Yekun qərar kredit mütəxəssisi tərəfindən verilir. "
+            ></TextView>
+    </TableLayout>
+</ScrollView>

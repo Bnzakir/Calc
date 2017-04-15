@@ -1,0 +1,155 @@
+<!--suppress DeprecatedClassUsageInspection -->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.AppCompat.Light"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zakirbaghirov.myapplication.MainActivity"
+    android:background="#1e7b1e">
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:id="@+id/img1"
+        android:layout_x="130dp"
+        android:layout_y="487dp"
+        android:background="@drawable/ace" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bet"
+        android:id="@+id/btn2"
+        android:layout_x="7dp"
+        android:layout_y="490dp"
+        android:textStyle="normal"
+        android:background="#971919"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pass"
+        android:id="@+id/btn1"
+        android:layout_x="7dp"
+        android:layout_y="540dp"
+        android:textStyle="normal"
+        android:background="#971919"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/muneytv"
+        android:layout_x="254dp"
+        android:layout_y="548dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Money"
+        android:id="@+id/textView2"
+        android:layout_x="246dp"
+        android:layout_y="522dp"
+        android:textColor="#f8ec09"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_x="130dp"
+        android:layout_y="20dp"
+        android:background="@drawable/card" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Computer"
+        android:id="@+id/textView3"
+        android:layout_x="128dp"
+        android:layout_y="-5dp"
+        android:textColor="#f7ff00"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Human"
+        android:id="@+id/textView4"
+        android:layout_x="130dp"
+        android:layout_y="446dp"
+        android:textColor="#f7ff00"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:text="Deal"
+        android:id="@+id/button3"
+        android:layout_x="7dp"
+        android:layout_y="440dp"
+        android:textStyle="normal"
+        android:background="#971919"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="64dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/maintxt"
+        android:layout_x="130dp"
+        android:layout_y="233dp" />
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_x="463dp"
+        android:layout_y="245dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pot"
+        android:id="@+id/textView"
+        android:layout_x="27dp"
+        android:layout_y="296dp"
+        android:textStyle="bold"
+        android:textColor="#f8ec09"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/ante"
+        android:layout_x="20dp"
+        android:layout_y="323dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="34dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv5"
+        android:layout_x="130dp"
+        android:layout_y="141dp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>

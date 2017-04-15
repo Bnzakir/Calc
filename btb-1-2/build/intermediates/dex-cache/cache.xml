@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zakirbaghriov/Desktop/zz/old/btb-1-2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/zakirbaghriov/Desktop/zz/old/btb-1-2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_62f2a43cb68f9f2026c8417765ae24cc7a81ad81.jar" />
+    </item>
+    <item
+        jar="/Users/zakirbaghriov/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/zakirbaghriov/Desktop/zz/old/btb-1-2/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_74f0765b8b2a9496b42927d0b08e05cc443f7278.jar" />
+    </item>
+    <item
+        jar="/Users/zakirbaghriov/Desktop/zz/old/btb-1-2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/zakirbaghriov/Desktop/zz/old/btb-1-2/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_6590045d34b2aa3fd5e2db9e99ea990513be0e1d.jar" />
+    </item>
+
+</items>

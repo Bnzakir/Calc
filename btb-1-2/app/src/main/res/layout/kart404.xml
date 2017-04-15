@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:stretchColumns="1">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="#eaeaea">
+
+<TextView
+  android:text="Bank “BTB”-dən kredit alan müştərilərə VISA Classic və ya VISA Gold kartı güzəştli şərtlərlə!"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    />
+        <View
+            android:layout_height="20dp"
+            ></View>
+        <TextView
+            android:text="Pərakəndə kreditlərdən yararlandığınız halda, Sizə güzəştli şərtlərlə VISA Classic ya VISA Gold kartı təklif edilə bilər. Bu karta öz vəsaitlərinizi yerləşdirə və ya kartda olan 12 ayadək məbləğində bərpa olunan kredit xəttindən istifadə edə bilərsiniz. Kredit xətti üzrə borc yarandıqda, hər ay yalnız faizləri ödəmək kifayətdir, əsas borcun ödənilməsi üçün isə Sizə kartın bitmə tarixinədək zaman verilir. "
+            android:textColor="@android:color/black"
+            />
+        <View
+            android:layout_height="20dp"
+            ></View>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+             android:text="Kredit xətti haqqında ətraflı məlumat
+             "
+            />
+
+        <TableRow>
+
+            <TextView
+                android:text="Meyarlar"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Şərtlər"
+                style="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/s"
+                android:textStyle="bold" />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text= "@string/er"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Pərakəndə kredit məhsulu olan mövcud müştəri"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kartın növü"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Visa Classic \nVisa Gold"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Müddət"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Maks. 12 ay"
+                android:textColor="@android:color/black"
+
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kredit xəttinin məbləği"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Visa Classic - 404 AZN \nVisa Gold - 606 AZN"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="İllik faiz dərəcəsi"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="39.60%"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Faktiki illik faiz dərəcəsi"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="40.82%"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Ödəniş üsulu"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="1) Hesablanmış faizlər - hər ay kartın rəsmiləşdirmə tarixinədək tam ödənilməlidir;\n2) Əsas məbləğ - kredit xəttinin bitmə tarixinədək tam ödənilməlidir"
+                android:textColor="@android:color/black"
+                />
+        </TableRow>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow>
+
+            <TextView
+                android:text="Qeyd: Yekun qərar kredit mütəxəssisi tərəfindən verilir."
+                android:textColor="@android:color/black"/>
+        </TableRow>
+       <View
+           android:layout_height="20dp"
+           ></View>
+       <TextView
+           android:textColor="@android:color/black"
+           android:textStyle="bold"
+            android:text="Kartın bərpa olunması
+            "/>
+       <TextView
+           android:textColor="@android:color/black"
+           android:text="Kartdaki məbləği kartın üzərində qeyd olunan bitmə tarixinədək daima bərpa olunacaq.
+
+Məsələn, Siz kartdaki kredit xəttini nağdsız və ya nağdlaşdırıb istifadə edirsiniz. Hər ay hesablanmış faizlər ödənilmək şərtilə, 3 ay sonra hesablanmış faizlərlə birlikdə əsas məbləği də geri ödəyirsiniz, bu halda ən geci növbəti iş günü ödədiyiniz əsas məbləğ kartın balansına əlavə edilir. Yəni, hər ödədiyiniz əsas məbləği kartdan istifadə müddətində yenidən nağdsız istifadə edə və ya nağdlaşdıra bilərsiniz."/>
+    <View
+        android:layout_height="20dp"
+        ></View>
+  <TextView
+      android:textColor="@android:color/black"
+      android:textStyle="bold"
+      android:text="Kartın istifadə qaydası
+      "
+      />
+      <TextView
+          android:textColor="@android:color/black"
+          android:text="Kart vasitəsilə istənilən yerdə nağdsız həyata keçirilən ödənişlərə görə heç bir komissiya tutulmur.
+
+Siz mağazalarda, əyləncə mərkəzlərində, restoranlarda birbaşa kartdan ödəniş etdiyiniz zaman, müxtəlif ödənişləri (işıq, su, telefon və s. haqları)  online etdiyiniz zaman, internet üzərindən alış-veriş etdiyiniz zaman, istənilən xarici ölkədə kartla ödəniş etdiyiniz zaman heç bir komissiya haqqı tutulmur."/>
+    </TableLayout>
+</ScrollView>
